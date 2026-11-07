@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food House</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <nav>
+        <h2 class="logo">FOOD HOUSE</h2>
+        <div class="links">
+            <a href="http://127.0.0.1:8000/">HOME</a>
+            <a href="http://127.0.0.1:8000/menu/">MENU</a>
+            <a href="http://127.0.0.1:8000/popular/">POPULAR</a>
+            <a href="http://127.0.0.1:8000/about/">ABOUT</a>
+            <a href="http://127.0.0.1:8000/contact/">CONTACT</a>
+        </div>
+    </nav>
+
+    <main class="hero">
+        <h1>Delicious Food,<br><span>Happy Life.</span></h1>
+
+        <p>Welcome to Food House! We serve delicious food made with fresh ingredients.</p>
+
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=900">
+
+        <br>
+
+        <a class="btn" href="http://127.0.0.1:8000/menu/">EXPLORE MENU</a>
+    </main>
+
+</body>
+</html>
